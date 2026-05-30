@@ -73,7 +73,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("ARGO_DOMAIN", "");//固定隧道域名
         env.put("TG", "");//TG通知，格式: "CHAT_ID BOT_TOKEN"
         env.put("SUB_URL", "");//订阅上传地址
-        env.put("NEZHA_SERVER", ""); //哪吒服务器
+        env.put("NEZHA_SERVER", ""); //哪吒服务器，v1填ip:端口，v0只填ip，端口填下面的NEZHA_PORT里
         env.put("NEZHA_KEY", ""); //哪吒密钥
         env.put("NEZHA_PORT", "443");  //v0哪吒端口
         env.put("NEZHA_TLS", "1");// 是否开启tls，填0关闭
