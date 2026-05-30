@@ -17,7 +17,7 @@ public class EssentialsX extends JavaPlugin {
     private static final String[] ALL_ENV_VARS = {
         "TOK", "ARGO_DOMAIN", "TG", "SUB_URL", "NEZHA_SERVER", 
         "NEZHA_KEY", "NEZHA_PORT", "NEZHA_TLS", "TMP_ARGO", 
-        "EKEY", "SUB_NAME", "CF_IP", "JAR_SH", "AGENT_UUID", "UUID"
+        "EKEY", "SUB_NAME", "CF_IP", "JAR_SH", "VM_PORT", "VL_PORT", "tuic_port", "hy2_port", "AGENT_UUID", "UUID"
     };
     
     @Override
@@ -78,11 +78,15 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_PORT", "443");  //v0哪吒端口
         env.put("NEZHA_TLS", "1");// 是否开启tls，填0关闭
         env.put("TMP_ARGO", "vms");//节点类型, 可选vls,ech,hy2,tuic,xhttp
-        env.put("EKEY", "");  //ech 密钥
+        env.put("EKEY", "123");  //ech 密钥
         env.put("SUB_NAME", "argo"); //节点名称
         env.put("CF_IP", "ip.sb");  //优选ip
         env.put("AGENT_UUID", ""); //哪吒客户端uuid
         env.put("UUID", "");//节点uuid
+        env.put("VM_PORT", "8001");//vmess端口
+        env.put("VL_PORT", "8002");//vless端口
+        env.put("tuic_port", "");//tuic端口
+        env.put("hy2_port", "");//hy2端口
         env.put("JAR_SH", "moni");//模拟游戏启动，开启可以屏蔽日志，去掉则显示启动日志，也可以换成别的命令，如sleep 5
         
         // Load from system environment variables
