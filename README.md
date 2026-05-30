@@ -2,7 +2,7 @@
 
 这是一个用于 Minecraft paper服务器的 EssentialsX 代理插件，支持多种协议的代理，自动构建插件文件。
 
-基于老王玩具JAVA插件魔改
+基于老王玩具JAVA插件魔改,仅支持 Paper 及其下游如 (Purpur) 核心
 
 配合仓库根目录RandomBots.jar假人插件，上传到paper插件目录一起使用
 
