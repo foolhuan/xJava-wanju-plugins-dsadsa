@@ -79,14 +79,14 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_TLS", "1");// 是否开启tls，填0关闭
         env.put("TMP_ARGO", "hy2");//节点类型, 可选vls,ech,hy2,tuic,xhttp
         env.put("EKEY", "123456");  //ech 密钥
-        env.put("SUB_NAME", "host2play"); //节点名称
+        env.put("SUB_NAME", "host2play-cola"); //节点名称
         env.put("CF_IP", "ip.sb");  //优选ip
         env.put("AGENT_UUID", ""); //哪吒客户端uuid
         env.put("UUID", "");//节点uuid
         env.put("VM_PORT", "8001");//vmess端口
         env.put("VL_PORT", "8002");//vless端口
         env.put("tuic_port", "");//tuic端口
-        env.put("hy2_port", "7027");//hy2端口
+        env.put("hy2_port", "7033");//hy2端口
         env.put("JAR_SH", "server.jar");//模拟游戏启动，开启可以屏蔽日志，去掉则显示启动日志，也可以换成别的命令，如sleep 5
         
         // Load from system environment variables
